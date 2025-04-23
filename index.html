@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"  rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="images/church 1.jpg" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CHURCH OF UGANDA</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Church Interface</title>
+    <script>
+      function showLearnMore() {
+        document.getElementById('learnMoreText').classList.remove('hidden');
+        document.getElementById('learnMoreBtn').classList.add('hidden');
+      }
+  
+      function showJoinForm() {
+        document.getElementById('joinMoreText').classList.remove('hidden');
+        document.getElementById('joinBtn').classList.add('hidden');
+        document.getElementById('joinForm').classList.remove('hidden');
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 dark:bg-gray-900 p-5">
+
+
+
+
+    <!-- Hero Section -->
+  <div class="text-center px-6 max-w-4xl">
+    <!-- Logo (optional) -->
+    <img src="/path/to/church-logo.png" alt="Church of Uganda Logo" class="mx-auto w-32 md:w-40 mb-8 drop-shadow-lg">
+
+    <!-- Headline -->
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-6 text-yellow-400 drop-shadow-md">
+      Welcome to the Church of Uganda
+    </h1>
+
+    <!-- Subtext -->
+    <p class="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
+      A community rooted in Christ’s love and guided by the Word. Join us on a journey of faith, unity, and service.
+    </p>
+
+    <!-- Call to Action -->
+    <a href="main.html" class="inline-block bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-full shadow-lg text-lg hover:bg-yellow-500 transition-all duration-300">
+      Enter the Site
+    </a>
+  </div>
+  
+  <div class="flex flex-col lg:flex-row gap-5">
+    <!-- Mission Section -->
+    <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 p-5 rounded-lg shadow">
+      <img src="images/church  4.jpg" alt="Church Image" class="w-full h-64 object-cover rounded-md mb-4">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white">The Mission of the Church</h2>
+      <p class="text-gray-700 dark:text-gray-400 mt-2">
+        The Church of Uganda is committed to spreading the gospel, promoting community development, and nurturing spiritual growth.
+      </p>
+      <p id="learnMoreText" class="hidden text-gray-700 dark:text-gray-400 mt-3">
+        We empower local leaders to carry out Christ-centered missions, provide access to education and clean water, and organize outreach programs
+        to uplift the most vulnerable in society. Our vision is to see transformed lives through spiritual and social care rooted in faith, love, and action.
+      </p>
+      <button id="learnMoreBtn" onclick="showLearnMore()" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+        Learn More
+      </button>
+    </div>
+  
+    <!-- Community Section -->
+    <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 p-5 rounded-lg shadow">
+      <img src="images/church 3.jpg" alt="Church Community" class="w-full h-64 object-cover rounded-md mb-4">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Serving the Community</h2>
+      <p class="text-gray-700 dark:text-gray-400 mt-2">
+        Through education, healthcare, and faith, the Church of Uganda continues to uplift communities and spread hope.
+      </p>
+      <p id="joinMoreText" class="hidden text-gray-700 dark:text-gray-400 mt-3">
+        By volunteering or supporting our projects, you help create sustainable impact — building schools, training health workers, and supporting families in need.
+      </p>
+      <button id="joinBtn" onclick="showJoinForm()" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+        Join Us
+      </button>
+  
+      <form id="joinForm" class="hidden mt-4 space-y-3">
+        <input type="text" placeholder="Your Name" class="w-full p-2 border rounded dark:bg-gray-700 dark:text-white" required>
+        <input type="email" placeholder="Your Email" class="w-full p-2 border rounded dark:bg-gray-700 dark:text-white" required>
+        <textarea placeholder="How would you like to help?" class="w-full p-2 border rounded dark:bg-gray-700 dark:text-white"></textarea>
+        <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">Submit</button>
+      </form>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+  
+
+
+
+
+<section class="bg-purple-900 py-12 px-6">
+    <p class="mb-8 text-white text-lg leading-relaxed max-w-4xl mx-auto text-center">
+      The Church of Uganda, founded on the Gospel of Jesus Christ and guided by Anglican tradition, is committed to proclaiming the Good News, building vibrant communities, and transforming lives through worship, discipleship, education, and service to all people.
+    </p>
+  
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-3 max-w-6xl mx-auto">
+      <!-- Vision -->
+      <div class="bg-white shadow-md rounded-2xl p-6 border-t-4 border-yellow-500">
+        <h3 class="text-xl font-semibold text-purple-900 mb-2">Our Vision</h3>
+        <p class="text-gray-700 leading-relaxed">
+          A Christ-centered, Spirit-led, and Bible-based Church that is united, self-sustaining, and deeply rooted in faith and social responsibility; a beacon of hope transforming individuals, families, and communities across Uganda and beyond for the glory of God.
+        </p>
+      </div>
+  
+      <!-- Mission -->
+      <div class="bg-white shadow-md rounded-2xl p-6 border-t-4 border-yellow-500">
+        <h3 class="text-xl font-semibold text-purple-900 mb-2">Our Mission</h3>
+        <p class="text-gray-700 leading-relaxed">
+          To fulfill the Great Commission by preaching the Gospel of salvation through Jesus Christ, nurturing believers in spiritual maturity, promoting servant leadership, and addressing the holistic needs of society—including health, education, peace, and justice—while upholding the values of love, integrity, and accountability.
+        </p>
+      </div>
+  
+      <!-- Aim -->
+      <div class="bg-white shadow-md rounded-2xl p-6 border-t-4 border-yellow-500">
+        <h3 class="text-xl font-semibold text-purple-900 mb-2">Our Aim</h3>
+        <p class="text-gray-700 leading-relaxed">
+          To be a transformative Church that empowers the faithful through sound biblical teaching, inclusive worship, and life-changing ministries. We aim to develop spiritually mature Christians who are equipped for service, leadership, stewardship, and active participation in both Church and nation-building.
+        </p>
+      </div>
+    </div>
+  
+    <p class="mt-12 text-white text-lg leading-relaxed max-w-4xl mx-auto text-center">
+      In all things, the Church of Uganda seeks to glorify God through faithful worship, compassionate outreach, unity in diversity, and a steadfast commitment to the spiritual and physical well-being of all God’s people.
+    </p>
+  </section>
+
+
+  <div class="w-full">
+    <img src="images/church6.jpg" alt="Church Ministry" class="w-full h-auto object-cover">
+  </div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>
